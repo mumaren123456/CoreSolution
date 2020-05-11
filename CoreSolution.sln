@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0542C450-D707-4C05-BEE3-C5C517CF8431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Data.Entity", "Core.Data.Entity\Core.Data.Entity.csproj", "{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A} = {7EE22E48-3F91-4C57-A9A3-C899B4D878F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04394111-E0C1-47A4-80E6-223AC8C54042}
