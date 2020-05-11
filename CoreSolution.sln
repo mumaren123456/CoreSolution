@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussiness", "Bussiness", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{BA28FBE3-53B4-4524-90AC-01D33C3C4C9F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0542C450-D707-4C05-BEE3-C5C517CF8431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Data.Entity", "Core.Data.Entity\Core.Data.Entity.csproj", "{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Data.Entity", "Core.Data.Entity\Core.Data.Entity.csproj", "{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{3564E46B-D6E1-4134-B04A-EFE33F87DB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cor.Application.Api", "Cor.Application.Api\Cor.Application.Api.csproj", "{135068C5-0B51-4726-AF6A-3A0D0A392B06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135068C5-0B51-4726-AF6A-3A0D0A392B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135068C5-0B51-4726-AF6A-3A0D0A392B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135068C5-0B51-4726-AF6A-3A0D0A392B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135068C5-0B51-4726-AF6A-3A0D0A392B06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2DCC683E-D2D2-4D08-A98E-77DDD6C6459A} = {7EE22E48-3F91-4C57-A9A3-C899B4D878F6}
+		{135068C5-0B51-4726-AF6A-3A0D0A392B06} = {3564E46B-D6E1-4134-B04A-EFE33F87DB87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04394111-E0C1-47A4-80E6-223AC8C54042}
